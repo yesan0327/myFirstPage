@@ -1,0 +1,44 @@
+h1 {
+    color: purple;
+    /*border-color: white;*/
+    /*border-width: 5px ;*/
+    /*border-style: dotted ;*/
+    border: white 15px dotted;
+}
+
+li {
+    color: orange;
+}
+
+body {
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511604820053&di=c75f65a5822263bff2717fd4918860c6&imgtype=jpg&src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D1680403215%2C2007003793%26fm%3D214%26gp%3D0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Element*/
+h2 {
+
+}
+
+/*Class*/
+.hello {
+
+}
+
+/*id*/
+#name {
+
+}
+
+/*star*/
+* {
+
+}
+
+/*all the things can be changed in this function*/
+
+/*Descendant Selector*/
+li a {
+    color: red
+}

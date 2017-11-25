@@ -1,0 +1,16 @@
+body {
+    background: orange;
+}
+
+li:nth-of-type(even) {
+    list-style: none;
+    background: gainsboro;
+}
+
+#special {
+    background: white;
+}
+
+#completed {
+    text-decoration: line-through;
+}
