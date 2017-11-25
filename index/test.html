@@ -2,14 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Form Demo</title>
 </head>
 <body>
-<table border="1">
-    <tr>
-        <td>hp</td>
-        <td>hpdashabi</td>
-    </tr>
-</table>
+<h1>Login</h1>
+<!--action - where the data send to-->
+<!--method - what HTTP method (get/post)-->
+<form action="" method="get">
+    <input type="text" placeholder="username" required>
+    <br>
+    <input type="password" placeholder="password" required>
+    <br>
+    <input type="email" placeholder="email" required>
+    <br>
+    <input type="submit">
+</form>
+<br>
+Do you prefer cat or dog?
+<form>
+    <label for="cat">cat:</label>
+    <input name="choice" id="cat" type="radio" value="cat">
+    <label for="dog">dog:</label>
+    <input name="choice" id="dog" type="radio" value="dog">
+    <br>
+    What's your favourite color?
+    <select name="color">
+        <option>red</option>
+        <option>yellow</option>
+        <option>green</option>
+        <option>blue</option>
+        <option>purple</option>
+        <option>pink</option>
+    </select>
+    <br>
+    What's ur mood now?
+    <select name="emotion">
+        <option value="happy">: )</option>
+        <option value="emotionless">: |</option>
+        <option value="unhappy">: (</option>
+    </select>
+    <button>go</button>
+</form>
+<textarea rows="20" cols="30"> </textarea>
 </body>
 </html>
