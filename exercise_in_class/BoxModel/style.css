@@ -1,0 +1,12 @@
+p {
+    /*content width & height*/
+    width: 30%;
+    /*height: 100px;*/
+    /*border*/
+    border: 2px solid cornflowerblue;
+    /*padding*/
+    padding: 10px;
+    padding-left: 20px;
+    /*margin*/
+    margin: 100px;
+}
